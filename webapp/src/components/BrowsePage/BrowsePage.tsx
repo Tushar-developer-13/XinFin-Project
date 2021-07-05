@@ -7,8 +7,10 @@ import { NavigationTab } from '../Navigation/Navigation.types'
 import { Navbar } from '../Navbar'
 import { Footer } from '../Footer'
 import { Navigation } from '../Navigation'
+import { Switch, Route, Redirect } from 'react-router-dom'
 import { NFTBrowse } from '../NFTBrowse'
 import { Props } from './BrowsePage.types'
+import MyCollection from '../XinFin/MyCollection'
 
 const BrowsePage = (props: Props) => {
   const { isFullscreen } = props

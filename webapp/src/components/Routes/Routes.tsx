@@ -25,7 +25,8 @@ const Routes = () => {
   return (
     <>
       <Switch>
-        <Route exact path={locations.browse()} component={BrowsePage} />
+        <Route path={locations.browse()} component={BrowsePage} />
+
         <Route
           exact
           path={locations.currentAccount()}
@@ -43,7 +44,7 @@ const Routes = () => {
         <Route exact path={locations.settings()} component={SettingsPage} />
         <Route exact path={locations.partners()} component={PartnersPage} />
         <Route exact path={locations.activity()} component={ActivityPage} />
-        <Route exact path={locations.root()} component={HomePage} />
+        <Route path={locations.root()} component={HomePage} />
         <Route exact path={locations.parcel()} component={LegacyNFTPage} />
         <Route exact path={locations.estate()} component={LegacyNFTPage} />
         <Redirect

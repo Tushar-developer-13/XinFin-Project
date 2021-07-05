@@ -27,6 +27,7 @@
     "decentraland-ui": "^3.5.2",
     "dotenv": "^8.2.0",
     "graphql": "^14.5.8",
+    "graphql-request": "^3.4.0",
     "history": "^4.10.1",
     "prettier": "^1.19.1",
     "react": "^16.12.0",

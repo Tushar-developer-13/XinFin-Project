@@ -13,6 +13,9 @@ import { Footer } from '../Footer'
 import { Slideshow } from './Slideshow'
 import { Props } from './HomePage.types'
 import './HomePage.css'
+import { Switch, Route } from 'react-router-dom'
+import MyCollection from '../XinFin/MyCollection'
+import MyCollectionItems from '../XinFin/MyCollectionItems'
 
 const HomePage = (props: Props) => {
   const { homepage, homepageLoading, onNavigate, onFetchNFTsFromRoute } = props
@@ -56,6 +59,12 @@ const HomePage = (props: Props) => {
     <>
       <Navbar isFullscreen isOverlay />
       <Hero centered={isMobile()} className="HomePageHero">
+        <Switch>
+          <Route exact path="/collections" component={MyCollection} />
+          <Route exact path="/collections/:id" component={MyCollectionItems} />
+        </Switch>
+      </Hero>
+      {/* <Hero centered={isMobile()} className="HomePageHero">
         <Hero.Header>{t('home_page.title')}</Hero.Header>
         <Hero.Description>{t('home_page.subtitle')}</Hero.Description>
         <Hero.Content>
@@ -66,7 +75,7 @@ const HomePage = (props: Props) => {
             {t('home_page.get_started')}
           </Button>
         </Hero.Actions>
-      </Hero>
+      </Hero> */}
       <Page className="HomePage">
         {views.map(view => (
           <Slideshow

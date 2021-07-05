@@ -23,13 +23,13 @@
     "network": "Network"
   },
   "vendors": {
-    "decentraland": "Decentraland",
+    "decentraland": "XinFin",
     "super_rare": "SuperRare",
     "makers_place": "MakersPlace",
     "known_origin": "KnownOrigin"
   },
   "navigation": {
-    "decentraland": "Decentraland",
+    "decentraland": "XinFin",
     "partners": "Partners",
     "my_assets": "My Assets",
     "my_bids": "My Bids",
@@ -61,7 +61,7 @@
     "ens": "Names",
     "editions": "Editions",
     "tokens": "Tokens",
-    "decentraland": "Decentraland",
+    "decentraland": "XinFin",
     "super_rare": "SuperRare",
     "known_origin": "KnownOrigin",
     "makers_place": "MakersPlace"
@@ -78,7 +78,7 @@
     "cheapest": "Cheapest"
   },
   "home_page": {
-    "title": "Decentraland Marketplace",
+    "title": "XinFin Marketplace",
     "subtitle": "Welcome to the virtual world’s one-stop-shop for the very best digital assets.",
     "get_started": "Start Browsing",
     "learn_more": "Learn More",
@@ -135,9 +135,9 @@
     "district": "District",
     "jump": "Jump",
     "in": "In",
-    "leaving_decentraland": "Leaving Decentraland",
-    "leaving_decentraland_description": "You can't publish or update {vendor} assets to the Decentraland Marketplace yet. Do you want to proceed to {vendor_link} to publish it there?",
-    "leaving_decentraland_disclaimer": "Your NFTs will still be listed in the Decentraland Marketplace"
+    "leaving_decentraland": "Leaving XinFin",
+    "leaving_decentraland_description": "You can't publish or update {vendor} assets to the XinFin Marketplace yet. Do you want to proceed to {vendor_link} to publish it there?",
+    "leaving_decentraland_disclaimer": "Your NFTs will still be listed in the XinFin Marketplace"
   },
   "proximity": {
     "adjacent": "Adjacent",
